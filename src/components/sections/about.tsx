@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Database, Server, Smartphone } from "lucide-react";
 
 const skills = [
   {

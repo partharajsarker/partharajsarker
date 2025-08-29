@@ -51,7 +51,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
             >
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Partha Raj Sarker
               </span>
