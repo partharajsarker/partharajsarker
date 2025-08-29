@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Code2, Server, Database, Smartphone } from "lucide-react";
 
 const skills = [
   {
@@ -11,7 +12,17 @@ const skills = [
   {
     name: "Backend",
     icon: Server,
-    items: ["Node.js", "laravel", "PostgreSQL", "MongoDB", "MySQL"],
+    items: ["Node.js", "Laravel", "PHP", "PostgreSQL", "MongoDB"],
+  },
+  {
+    name: "DevOps/Tools",
+    icon: Database,
+    items: ["Docker", "AWS", "Git", "Linux", "Nginx"],
+  },
+  {
+    name: "CMS & Others",
+    icon: Smartphone,
+    items: ["WordPress", "WooCommerce", "MySQL", "REST API"],
   },
 ];
 
