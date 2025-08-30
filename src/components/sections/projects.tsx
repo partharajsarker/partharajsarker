@@ -12,7 +12,7 @@ const fallbackProjects = [
     title: "E-Commerce Platform",
     description:
       "Full-stack e-commerce solution with Next.js, Stripe integration, and admin dashboard",
-    image: "/placeholder.jpg",
+    image: "/project-1.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
     githubUrl: "https://github.com/partharajsarker/market-place",
     liveUrl: "https://market-place-seven-amber.vercel.app/",
