@@ -1,0 +1,48 @@
+<svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="225" fill="#f8fafc"/>
+  <rect x="20" y="20" width="360" height="185" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="30" y="30" width="340" height="40" rx="4" fill="#0ea5e9"/>
+  <rect x="40" y="40" width="80" height="20" rx="2" fill="white"/>
+  <rect x="130" y="40" width="60" height="20" rx="2" fill="white"/>
+  <rect x="200" y="40" width="60" height="20" rx="2" fill="white"/>
+  <rect x="270" y="40" width="60" height="20" rx="2" fill="white"/>
+  <rect x="340" y="40" width="20" height="20" rx="10" fill="white"/>
+  
+  <!-- Current Weather -->
+  <rect x="30" y="80" width="170" height="100" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="115" cy="130" r="25" fill="#fbbf24"/>
+  <circle cx="115" cy="130" r="20" fill="#fde047"/>
+  <rect x="100" y="140" width="30" height="8" rx="4" fill="#0ea5e9"/>
+  <rect x="105" y="150" width="20" height="6" rx="3" fill="#0ea5e9"/>
+  <rect x="110" y="158" width="10" height="4" rx="2" fill="#0ea5e9"/>
+  <text x="115" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0f172a">72°F</text>
+  <text x="115" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Sunny</text>
+  
+  <!-- Forecast -->
+  <rect x="210" y="80" width="160" height="100" rx="4" fill="white" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="220" y="90" width="140" height="20" rx="2" fill="#f1f5f9"/>
+  <rect x="220" y="120" width="140" height="20" rx="2" fill="#f1f5f9"/>
+  <rect x="220" y="150" width="140" height="20" rx="2" fill="#f1f5f9"/>
+  
+  <!-- Weather Icons -->
+  <circle cx="240" cy="100" r="6" fill="#fbbf24"/>
+  <rect x="240" y="130" width="12" height="8" rx="4" fill="#0ea5e9"/>
+  <rect x="245" y="140" width="8" height="6" rx="3" fill="#0ea5e9"/>
+  <rect x="247" y="148" width="4" height="4" rx="2" fill="#0ea5e9"/>
+  <circle cx="240" cy="160" r="6" fill="#fbbf24"/>
+  
+  <!-- Temperature Text -->
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="12" fill="#64748b">75°F</text>
+  <text x="280" y="120" font-family="Arial, sans-serif" font-size="12" fill="#64748b">68°F</text>
+  <text x="280" y="140" font-family="Arial, sans-serif" font-size="12" fill="#64748b">72°F</text>
+  <text x="280" y="160" font-family="Arial, sans-serif" font-size="12" fill="#64748b">78°F</text>
+  
+  <!-- Chart Area -->
+  <rect x="30" y="190" width="340" height="15" rx="4" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <polyline points="40,200 80,195 120,198 160,192 200,197 240,194 280,196 320,193 360,195" stroke="#0ea5e9" stroke-width="2" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Weather Dashboard</text>
+</svg>

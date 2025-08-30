@@ -1,9 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-
 import Link from "next/link";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ImageIcon } from "lucide-react";
 
 // Safe projects data - define directly if import fails
 const fallbackProjects = [
@@ -12,7 +11,7 @@ const fallbackProjects = [
     title: "E-Commerce Platform",
     description:
       "Full-stack e-commerce solution with Next.js, Stripe integration, and admin dashboard",
-    image: "/project-1.png",
+    image: "/project1.png",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Stripe"],
     githubUrl: "https://github.com/partharajsarker/market-place",
     liveUrl: "https://market-place-seven-amber.vercel.app/",
@@ -22,7 +21,7 @@ const fallbackProjects = [
     title: "Task Management App",
     description:
       "Collaborative task management tool with real-time updates and team features",
-    image: "/placeholder.jpg",
+    image: "/project-2.svg",
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
@@ -32,7 +31,7 @@ const fallbackProjects = [
     title: "Weather Dashboard",
     description:
       "Responsive weather application with location-based forecasts and interactive maps",
-    image: "/placeholder.jpg",
+    image: "/project-3.svg",
     tags: ["React", "OpenWeather API", "Charts.js", "Tailwind"],
     githubUrl: "https://github.com",
     liveUrl: "https://example.com",
@@ -67,10 +66,32 @@ export default function Projects() {
                   viewport={{ once: true }}
                   className="bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                 >
-                  <div className="aspect-video relative bg-gray-200">
-                    {/* Placeholder for image */}
-                    <div className="w-full h-full flex items-center justify-center text-gray-500">
-                      {project.title}
+                  <div className="aspect-video relative bg-gray-200 overflow-hidden">
+                    {/* Project Image with Fallback */}
+                    <div className="w-full h-full flex items-center justify-center">
+                      <img
+                        src={project.image}
+                        alt={`${project.title} screenshot`}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          // Fallback to placeholder if image fails to load
+                          const target = e.target as HTMLImageElement;
+                          target.style.display = "none";
+                          const fallback =
+                            target.nextElementSibling as HTMLElement;
+                          if (fallback) fallback.style.display = "flex";
+                        }}
+                      />
+                      {/* Fallback placeholder */}
+                      <div className="hidden absolute inset-0 w-full h-full flex items-center justify-center text-gray-500 bg-gray-100">
+                        <div className="text-center">
+                          <ImageIcon className="w-12 h-12 mx-auto mb-2 text-gray-400" />
+                          <p className="text-sm font-medium">{project.title}</p>
+                          <p className="text-xs text-gray-400">
+                            Image coming soon
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
