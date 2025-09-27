@@ -18,13 +18,13 @@ const fallbackProjects = [
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Bexene Digital Marketing Agency",
     description:
-      "Collaborative task management tool with real-time updates and team features",
-    image: "/project-2.svg",
-    tags: ["React", "Node.js", "Socket.io", "MongoDB"],
+      "This is a WordPress website for a digital marketing agency. I built this website alon . The whole them was designed and developed by me.",
+    image: "/image.png",
+    tags: ["WordPress", "PHP", "MySQL"],
     githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    liveUrl: "https://bexene.com",
   },
   {
     id: 3,
