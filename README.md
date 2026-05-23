@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hi there, I'm Partha Raj Sarker 👋 
+### Diploma Engineer in Computer Science & Technology | Web Developer
 
-## Getting Started
+<p align="left">
+  <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" />
+  <img src="https://img.shields.io/github/followers/partharajsarker?style=social" alt="GitHub Followers" />
+</p>
 
-First, run the development server:
+I am a passionate **Web Developer** and a **Computer Science & Technology Graduate**. I love building clean, efficient, and user-centric web applications. My academic background has given me a strong foundation in core software principles, which helps me write optimized code and tackle complex logical problems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 About Me
+- 🎓 **Education:** Diploma in Computer Science and Technology.
+- 💻 **Core Focus:** Creating responsive frontend layouts, single-page apps (SPAs), and clean web architectures.
+- ⚡ **Fun Fact:** I treat debugging like solving a puzzle — the trickier it gets, the more satisfying it is to fix!
+- 🔭 **Current Goal:** Enhancing my web dev stack and contributing to exciting tech projects.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠️ Tech Stack & Skills
 
-## Learn More
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" />
+      <br />HTML5
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3" />
+      <br />CSS3
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+      <br />JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br />React
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+      <br />Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+      <br />GitHub
+    </td>
+  </tr>
+</table>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📊 GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=partharajsarker&show_icons=true&theme=dark" alt="Partha's GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=partharajsarker&layout=compact&theme=dark" alt="Top Languages" height="150" />
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 🤝 Connect with me
+- 💼 **LinkedIn:** [Your LinkedIn Profile URL Here]
+- 📧 **Email:** [Your New Professional Gmail Here]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">🛠️ Built with code and dedication. Let's build something awesome together! 🚀</p>
