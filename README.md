@@ -60,7 +60,7 @@ I am a passionate **Web Developer** and a **Computer Science & Technology Gradua
 ---
 
 ### 🤝 Connect with me
-- 💼 **LinkedIn:** [Your LinkedIn Profile URL Here]
-- 📧 **Email:** [Your New Professional Gmail Here]
+- 💼 **LinkedIn:** https://www.linkedin.com/in/partharajsarkerdev
+- 📧 **Email:** partharajsarker.dev@gmail.com
 
 <p align="center">🛠️ Built with code and dedication. Let's build something awesome together! 🚀</p>
