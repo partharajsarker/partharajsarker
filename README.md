@@ -1,4 +1,4 @@
-# Hi there, I'm Partha Raj Sarker 👋 
+# Hi there, I'm Partha Sarker 👋 
 ### Diploma Engineer in Computer Science & Technology | Web Developer
 
 <p align="left">
